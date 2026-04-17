@@ -5,7 +5,6 @@ const metricsMiddleware = require("./middleware/metricsMiddleware");
 const { register } = require("./metrics");
 const cors = require("cors");
 
-dotenv.config();
 
 const app = express();
 
