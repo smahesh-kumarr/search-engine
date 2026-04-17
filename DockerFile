@@ -6,7 +6,6 @@ COPY package*.json ./
 
 RUN npm ci --omit=dev
 
-# Here the multi-stage build starts
 FROM node:18-alpine
 
 WORKDIR /app
